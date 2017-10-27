@@ -15,14 +15,14 @@
 		//=======================================================================================
   		var mapOptions = {
     		zoom: 18,		
-			mapTypeId: google.maps.MapTypeId.ROADMAP,	
-    		center: new google.maps.LatLng(-12.046014, -77.030503),
+			mapTypeId: google.maps.MapTypeId.hybrid,	
+    		center: new google.maps.LatLng(37.5039325,127.0406096),
 			panControl: true,
   			zoomControl: true,
   			mapTypeControl: true,
   			//scaleControl: false,
-  			streetViewControl: true,
-  			overviewMapControl: true,
+  			streetViewControl: false,
+  			overviewMapControl: false,
 			//rotateControl:true,
 			
   		};
@@ -54,7 +54,7 @@
 		//ADD NEW MARKER WITH LABEL
 		//=======================================================================================
 		var marker1 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(-12.046014, -77.030503),
+       		position: new google.maps.LatLng(37.5039325,127.0406096),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
@@ -135,7 +135,7 @@
 		//INFO WINDOWS
 		//=======================================================================================
 		var contentString = '<div>'+
-		'WEDDING CEREMONY';
+		'상록아트홀';
       	'</div>';
 		
 		var contentString1 = '<div>'+
