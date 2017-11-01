@@ -16,7 +16,7 @@
   		var mapOptions = {
     		zoom: 18,		
 			mapTypeId: google.maps.MapTypeId.hybrid,	
-    		center: new google.maps.LatLng(37.5039325,127.0406096),
+    		center: new google.maps.LatLng(37.504205,127.042798),
 			panControl: true,
   			zoomControl: true,
   			mapTypeControl: true,
