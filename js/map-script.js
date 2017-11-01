@@ -54,7 +54,7 @@
 		//ADD NEW MARKER WITH LABEL
 		//=======================================================================================
 		var marker1 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(37.5039325,127.0406096),
+       		position: new google.maps.LatLng(37.504205,127.042798),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
